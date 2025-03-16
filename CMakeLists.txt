@@ -7,4 +7,5 @@ set(CMAKE_CXX_STANDARD 20)
 file(GLOB_RECURSE TASKS_SRC "Week*/**.cpp")
 
 # Agregar todos los archivos .cpp al ejecutable
-add_executable(myUniversityTasks main.cpp ${TASKS_SRC})
+add_executable(myUniversityTasks main.cpp ${TASKS_SRC}
+        week1/Comparing.cpp)

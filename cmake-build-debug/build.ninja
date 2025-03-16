@@ -61,6 +61,12 @@ build CMakeFiles/myUniversityTasks.dir/week1/BasicStringOperations.cpp.o: CXX_CO
   OBJECT_DIR = CMakeFiles/myUniversityTasks.dir
   OBJECT_FILE_DIR = CMakeFiles/myUniversityTasks.dir/week1
 
+build CMakeFiles/myUniversityTasks.dir/week1/Comparing.cpp.o: CXX_COMPILER__myUniversityTasks_unscanned_Debug /Users/jorgealexandergutierrezalva/CLionProjects/myUniversityTasks/week1/Comparing.cpp || cmake_object_order_depends_target_myUniversityTasks
+  DEP_FILE = CMakeFiles/myUniversityTasks.dir/week1/Comparing.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/myUniversityTasks.dir
+  OBJECT_FILE_DIR = CMakeFiles/myUniversityTasks.dir/week1
+
 build CMakeFiles/myUniversityTasks.dir/week1/DigitTransformation.cpp.o: CXX_COMPILER__myUniversityTasks_unscanned_Debug /Users/jorgealexandergutierrezalva/CLionProjects/myUniversityTasks/week1/DigitTransformation.cpp || cmake_object_order_depends_target_myUniversityTasks
   DEP_FILE = CMakeFiles/myUniversityTasks.dir/week1/DigitTransformation.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
@@ -75,7 +81,7 @@ build CMakeFiles/myUniversityTasks.dir/week1/DigitTransformation.cpp.o: CXX_COMP
 #############################################
 # Link the executable myUniversityTasks
 
-build myUniversityTasks: CXX_EXECUTABLE_LINKER__myUniversityTasks_Debug CMakeFiles/myUniversityTasks.dir/main.cpp.o CMakeFiles/myUniversityTasks.dir/week1/BasicStringOperations.cpp.o CMakeFiles/myUniversityTasks.dir/week1/DigitTransformation.cpp.o
+build myUniversityTasks: CXX_EXECUTABLE_LINKER__myUniversityTasks_Debug CMakeFiles/myUniversityTasks.dir/main.cpp.o CMakeFiles/myUniversityTasks.dir/week1/BasicStringOperations.cpp.o CMakeFiles/myUniversityTasks.dir/week1/Comparing.cpp.o CMakeFiles/myUniversityTasks.dir/week1/DigitTransformation.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = CMakeFiles/myUniversityTasks.dir
   POST_BUILD = :
