@@ -20,12 +20,18 @@ void runComparing(){
         std::cout << element << " ";
     }
 
+    auto sure = true ;
+
     for (auto i = 0; i < number.size()/2; i ++) {
-        if (number[i] == number[(number.size()/2) + i]) {
-            std::cout << " ";
-        }else
-            std::cout << "the other half is not equal";
+        if (number[i] != number[(number.size()/2) + i]) {
+            sure = false;
+            break;
+        }
     }
+    if ( sure == true){
+        std::cout << "The first half of the array is equal to the second half of the array";
+    }else
+        std::cout << "The first half of the array is not equal to the second half of the array";
 
 
 
