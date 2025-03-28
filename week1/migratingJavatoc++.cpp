@@ -65,18 +65,45 @@ void runMigratingToJava() {
 
     // third problem
 
+    using namespace std;
+
+
+
     auto numbers = std::vector<int>{};
 
     int input;
 
     while (std::cin >> input && input >= 0  ) {
         numbers.push_back(input);
-
-
     }
 
+    for ( auto number : numbers) {
+        std::cout << number << " ,";
+    }
+
+    std::cout << '\n';
 
 
+    for (auto number : numbers) {
+        bool isWhat = true;
+
+        if (number <= 1) isWhat = false;
+        else if (number == 2) isWhat = true;  // 2 is prime
+        else if (number % 2 == 0) isWhat = false;  // Even numbers > 2 are not prime
+        else {
+            for (auto j = 3; j <= sqrt(number); j += 2) {  // Only check odd numbers
+                if (number % j == 0) {
+                    isWhat = false;
+                    break;  // Stop checking if we found a divisor
+                }
+            }
+        }
+
+        if (isWhat)
+            cout << number << " is prime." << endl;
+        else
+            cout << number << " is not prime." << endl;
+    }
 
 
 }

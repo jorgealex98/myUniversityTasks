@@ -8,4 +8,5 @@ file(GLOB_RECURSE TASKS_SRC "Week*/**.cpp")
 
 # Agregar todos los archivos .cpp al ejecutable
 add_executable(myUniversityTasks main.cpp ${TASKS_SRC}
-        week1/Comparing.cpp)
+        week1/Comparing.cpp week1/sumOfTwo.cpp  
+        week1/migratingJavatoc++.cpp)
