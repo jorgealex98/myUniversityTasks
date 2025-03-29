@@ -33,6 +33,15 @@ auto main () -> int  {
     for(auto iter = vec.begin(); iter != vec.end(); iter++){
         std::cout << *iter ;
     }*/
+    auto numbers = std::vector<int>(5,1);
+
+    auto duplicates = std::ranges::unique(numbers.begin(), numbers.end());
+
+    numbers.erase(duplicates.begin(), duplicates.end());
+
+    for(auto number : numbers){
+        std::cout << number;
+    }
 
 
 
