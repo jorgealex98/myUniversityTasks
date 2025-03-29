@@ -3,3 +3,8 @@
 18	918	1742124290283398381	CMakeFiles/myUniversityTasks.dir/week1/DigitTransformation.cpp.o	55501cd7e866fd4e
 18	920	1742124290283216380	CMakeFiles/myUniversityTasks.dir/week1/BasicStringOperations.cpp.o	fddc42806ba30c84
 921	1097	1742124291185573121	myUniversityTasks	72e41d669e01654b
+0	381	1743278020515916464	_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o	e09c7347c21f8deb
+0	411	1743278020516060006	CMakeFiles/myUniversityTasksv2.dir/week2/main.cpp.o	8febe29805f52b0e
+0	621	1743278020515634089	_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o	588c2aaa73854351
+621	658	1743278021136409679	_deps/fmt-build/libfmtd.a	bd477245cd7c8205
+658	823	1743278021173750186	myUniversityTasksv2	f47cf54cd774ad80

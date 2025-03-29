@@ -18,9 +18,10 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(fmt)
 
-add_executable(myUniversityTasks main.cpp ${TASKS_SRC}
-        week1/Comparing.cpp week1/sumOfTwo.cpp  
-        week1/migratingJavatoc++.cpp)
+#add_executable(myUniversityTasksv1 week1/main.cpp)
+add_executable(myUniversityTasksv2 week2/main.cpp)
 
 
-target_link_libraries(myUniversityTasks fmt)
+
+
+target_link_libraries(myUniversityTasksv2 fmt)

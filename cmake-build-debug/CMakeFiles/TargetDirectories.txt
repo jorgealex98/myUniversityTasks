@@ -1,3 +1,14 @@
-/Users/jorgealexandergutierrezalva/CLionProjects/myUniversityTasks/cmake-build-debug/CMakeFiles/myUniversityTasks.dir
+/Users/jorgealexandergutierrezalva/CLionProjects/myUniversityTasks/cmake-build-debug/CMakeFiles/myUniversityTasksv2.dir
 /Users/jorgealexandergutierrezalva/CLionProjects/myUniversityTasks/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/jorgealexandergutierrezalva/CLionProjects/myUniversityTasks/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jorgealexandergutierrezalva/CLionProjects/myUniversityTasks/cmake-build-debug/CMakeFiles/list_install_components.dir
+/Users/jorgealexandergutierrezalva/CLionProjects/myUniversityTasks/cmake-build-debug/CMakeFiles/install.dir
+/Users/jorgealexandergutierrezalva/CLionProjects/myUniversityTasks/cmake-build-debug/CMakeFiles/install/local.dir
+/Users/jorgealexandergutierrezalva/CLionProjects/myUniversityTasks/cmake-build-debug/CMakeFiles/install/strip.dir
+/Users/jorgealexandergutierrezalva/CLionProjects/myUniversityTasks/cmake-build-debug/_deps/fmt-build/CMakeFiles/fmt.dir
+/Users/jorgealexandergutierrezalva/CLionProjects/myUniversityTasks/cmake-build-debug/_deps/fmt-build/CMakeFiles/edit_cache.dir
+/Users/jorgealexandergutierrezalva/CLionProjects/myUniversityTasks/cmake-build-debug/_deps/fmt-build/CMakeFiles/rebuild_cache.dir
+/Users/jorgealexandergutierrezalva/CLionProjects/myUniversityTasks/cmake-build-debug/_deps/fmt-build/CMakeFiles/list_install_components.dir
+/Users/jorgealexandergutierrezalva/CLionProjects/myUniversityTasks/cmake-build-debug/_deps/fmt-build/CMakeFiles/install.dir
+/Users/jorgealexandergutierrezalva/CLionProjects/myUniversityTasks/cmake-build-debug/_deps/fmt-build/CMakeFiles/install/local.dir
+/Users/jorgealexandergutierrezalva/CLionProjects/myUniversityTasks/cmake-build-debug/_deps/fmt-build/CMakeFiles/install/strip.dir
